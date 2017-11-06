@@ -195,7 +195,9 @@
     
     .meals-showcase li{
         display: block;
-        width: 100%;
+        width: 96%;
+        margin-right: 2%;
+        margin-left: 2%;
     }
 
 }
