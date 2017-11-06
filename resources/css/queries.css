@@ -194,6 +194,7 @@
 	footer{font-size: 30%;}
     
     .meals-showcase li{
+        box-sizing: border-box;
         display: block;
         width: 96%;
         margin-right: 2%;
