@@ -197,7 +197,6 @@ input[type=submit]:active{
 /* ------------------------------------ */
 
 header {
-    
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero-min.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
     height: 100vh;
@@ -335,6 +334,7 @@ header {
     margin: 0;
     overflow: hidden;
     background-color: #000;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -681,10 +681,12 @@ footer p {
 .js--wp-2,
 .js--wp-3{
 	opacity: 0;
+	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 }
 
 .js--wp-4{
+	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 }
 
