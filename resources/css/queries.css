@@ -192,6 +192,11 @@
 	}
 
 	footer{font-size: 30%;}
+    
+    .meals-showcase li{
+        display: block;
+        width: 100%;
+    }
 
 }
 
